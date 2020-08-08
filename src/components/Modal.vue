@@ -75,4 +75,11 @@ export default {
       }
     }
   }
+
+  @media screen and (max-width: 480px){
+    .modal-content{
+      width: 90%;
+      padding: 1.6rem;
+    }
+  }
 </style>

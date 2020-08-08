@@ -214,4 +214,16 @@ button:hover{
     overflow: auto;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .result-container{
+    display: flex;
+    flex-direction: column;
+
+    textarea,code{
+      width: 100%;
+      height: 43vh;
+    }
+  }
+}
 </style>
